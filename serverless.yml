@@ -3,3 +3,11 @@ service: aws-meetup
 provider:
   name: aws
   runtime: nodejs10.x
+
+functions:
+  hello:
+    handler: index.handler
+    events:
+      - http:
+          path: hello
+          method: GET

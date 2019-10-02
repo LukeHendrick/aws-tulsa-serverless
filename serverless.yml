@@ -6,8 +6,14 @@ provider:
 
 functions:
   hello:
-    handler: index.handler
+    handler: hello.handler
     events:
       - http:
           path: hello
           method: GET
+  world:
+    handler: world.handler
+    events:
+      - http:
+          path: world/{name}
+          method: POST

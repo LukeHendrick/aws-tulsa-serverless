@@ -1,7 +1,7 @@
 # AWS Tulsa Meetup - Serverless
  ### This repo is designed to walk you through the basic steps of creating a new AWS stack using the [Serverless Framework](https://serverless.com/). The `master` branch is the completed project, start with [stepOne](https://github.com/LukeHendrick/aws-tulsa-serverless/tree/stepOne)
 ## Before You Begin
-This project relies on the serverless framework, and as such requires a few packages be installed.
+This project relies on the Serverless Framework, and as such requires a few packages be installed.
 
 First, please make sure you have Node installed and npm is avaiable for use on the command line. To check run the following command from Terminal/cmd:
 

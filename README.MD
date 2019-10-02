@@ -3,7 +3,7 @@
 ## Before You Begin
 This project relies on the Serverless Framework, and as such requires a few packages be installed.
 
-First, please make sure you have Node installed and npm is avaiable for use on the command line. To check run the following command from Terminal/cmd:
+First, please make sure you have Node installed and npm is available for use on the command line. To check run the following command from Terminal/cmd:
 
 `npm --version`
 

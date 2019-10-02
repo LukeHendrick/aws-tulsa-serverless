@@ -3,7 +3,7 @@
 ## Before You Begin
 This project relies on the Serverless Framework, and as such requires a few packages be installed.
 
-First, please make sure you have Node installed and npm is available for use on the command line. To check run the following command from Terminal/cmd:
+First, please make sure you have Node installed and npm is available for use on the command line. To check, run the following command from Terminal/cmd:
 
 `npm --version`
 
@@ -16,4 +16,4 @@ Next, run the following command to install the Serverless Framework:
 
 Finally, you will need an AWS account to deploy services into, visit [this link](https://aws.amazon.com/free/start-your-free-trial) to get started.
 
-If you have any questions, reach out here or on the #meetups channel in [Slack](https://awstulsa.slack.com/messages/CLWKXNDNF "https://awstulsa.slack.com/messages/CLWKXNDNF"), or open a new issue on this repo!
+If you have any questions, reach out on the #meetups channel in [Slack](https://awstulsa.slack.com/messages/CLWKXNDNF "https://awstulsa.slack.com/messages/CLWKXNDNF"), or open a new issue on this repo!

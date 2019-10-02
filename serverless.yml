@@ -2,7 +2,7 @@ service: aws-meetup
 
 provider:
   name: aws
-  runtime: nodejs10.x
+  runtime: python3.7
 
 package:
   individually: true
@@ -14,7 +14,7 @@ functions:
     handler: hello.handler
     package:
       include:
-        - hello.js
+        - hello.py
     events:
       - http:
           path: hello
@@ -23,7 +23,7 @@ functions:
     handler: world.handler
     package:
       include:
-        - world.js
+        - world.py
     events:
       - http:
           path: world/{name}
